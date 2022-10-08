@@ -1,0 +1,71 @@
+@media (max-width:400px){
+  *{
+    font-size: 14px;
+  }
+}
+*{
+  font-family: auto;
+}
+.App {
+  text-align: center;
+}
+
+:root{
+  --lightColor:rgb(197, 1, 60);
+  --darkColor:rgb(97, 9, 35);
+  --lightBlack:#010101f2;
+  --darkBlack:#000000f2;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: white;
+}
+
+.btn{
+  border-radius: 0px;
+  padding:7px 11px;
+}
+.btn:hover,.btn:active,.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.btnSolid{
+  color: white;
+  background-color: var(--lightColor);
+}
+.btnSolid:hover,.btnSolid:active{
+  background-color: var(--darkColor);
+  color: white;
+}
+.bgBtn{
+  width: 100%;
+}
+
+
+.btnOutline{
+  color: var(--lightColor);
+  border-color: 2px solid var(--lightColor);
+}
+.btnOutline:hover,.btnOutline:active{
+  background-color: var(--lightColor);
+  color: white;
+  border: 2px solid var(--lightColor);
+}
+
+.heading{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+@media (max-width:600px) {
+  .heading{
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,71 @@
+section{
+    padding: 20px 0px;
+    min-height: 80vh;
+}
+#searchBar{
+    width: 100%;
+    height: 70px;
+    padding: 0px 29px;
+    font-size: 19px;
+}
+.imagesBox{
+    padding: 50px 0px;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.imageCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.imageCard img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+.imageCard .text{
+    font-size: 22px;
+    font-family: ui-monospace;
+    color: var(--darkColor);
+    font-weight: 600;
+}
+#addImageIcon{
+    background: black;
+    position: fixed;
+    bottom: 71px;
+    padding: 14px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 29px;
+    border: 4px solid var(--lightColor);
+    cursor: pointer;
+    right: 30px;
+}
+
+
+
+#name{
+    height: 50px;
+    padding: 0px 30px;
+    width: 100%;
+    margin-top: 22px;
+}
+#image{
+    margin-top: 22px;
+}
+
+@media (max-width:600px) {
+    .imageCard img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
